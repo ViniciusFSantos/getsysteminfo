@@ -70,7 +70,7 @@ try:
     with open(filepath, 'w') as arquivo:
         for valor in info_geral:
             arquivo.write(str(valor)+'\n')
-    print('Arquivo .txt salvo com sucesso!')
+    print('Arquivo .txt salvo com sucesso em ',filepath)
 except:
     print('Algo deu errado ao salvar o arquivo .txt contate o desenvolvedor')
 
